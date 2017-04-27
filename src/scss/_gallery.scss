@@ -1,0 +1,11 @@
+.gallery {
+	@include clearfix;
+	li.image-container {
+		float: left;
+		list-style: none;
+		@include grid-images(2, 3%);
+		@include tablet {
+			@include grid-images(4, 3%);
+		}
+	}
+}

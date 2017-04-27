@@ -1,0 +1,69 @@
+// ===   Color Variables
+
+$black:                 #000;
+$white:                 #fff;
+$blue:                  #0076a3;
+$dark-blue:     darken($blue, 10);
+$yellow:                #ffba00;
+$green:                 #548c27;
+$red:                   #fe2d28;
+
+$bg-color:                $blue;
+$tx-color:                $black;
+$heading-color:           $yellow;
+$nav-bg-color:            $dark-blue;
+$menu-anchor-color:       $white;
+
+
+// font & text
+
+$paragraph-font-size:     1.2rem;
+$paragraph-font-family: 'Open Sans', sans-serif;
+$menu-anchor-font-size:   1.4rem;
+$heading-font-family: 'Bitter', serif;
+$heading-font-weight: 700;
+$heading-font-size: (
+    h1:                     40px,
+    h2:                     36px,
+    h3:                     32px,
+    h4:                     28px,
+    h5:                     24px,
+    h6:                     20px
+);
+
+//   visit
+
+$visit-border-color:         $white;
+$menu-heading-color: lighten($yellow, 10);
+$visit-text-color:           $white;
+
+
+// grid & responsive 
+
+$columns:                       12;
+$grid-max-width:           1200px;
+
+$breakpoints: (
+    phone:                  480px,
+    tablet:                 768px,
+    desktop:                1024px
+);
+
+
+// buttons 
+$btn-font-size:                   16px;
+
+//footer 
+$bg-footer: $dark-blue;
+$footer-color: $white;
+$site-info-bg-color: $yellow;
+$site-info-color: $dark-blue;
+
+/// cards
+$card-bg-color: $white;
+$card-font-size: 1rem;
+
+//tables
+$table-font-size: 1rem;
+$table-color: $white;
+

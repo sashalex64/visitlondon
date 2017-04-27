@@ -1,0 +1,19 @@
+footer.site-footer {
+	padding-top: 10px;
+	margin-top: 30px;
+	color: $footer-color;
+
+	h2 {
+		// font-size: map-get($heading-font-size, h2);
+		margin: 0;
+	}
+	p.site-info {
+		text-align: center;
+		padding:15px;
+		background-color: $site-info-bg-color;
+		color:$site-info-color;
+		margin-top: 10px;
+		//text-transform: uppercase;
+		font-variant: small-caps; 
+	}
+}

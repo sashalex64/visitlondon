@@ -1,0 +1,14 @@
+.btn {
+	@include button($yellow, darken($yellow, 5), $white);
+		width: 100%;
+}
+.btn-service {
+	@include button(darken($red, 30), darken($red, 35), $white);
+		font-size: 0.8rem;
+		width:100%;
+
+		&:after {
+			content: '...';
+		}
+
+}
