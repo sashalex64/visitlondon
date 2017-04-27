@@ -1,10 +1,11 @@
-# My Personal Workflow with SASS, NPM and Gulp
+# Радни ток са Sass, NPM, Gulp and Git
 My Web Workflow with NPM, SASS, Gulp and More
 
-#Instructions
+## Instructions
 1.- Clone this repo or download it from this website.
 
 2.- Make sure you have these installed:
+
     - [node.js](http://nodejs.org/)
     - [git](http://git-scm.com/)
     - [gulp](http://gulpjs.com/)
